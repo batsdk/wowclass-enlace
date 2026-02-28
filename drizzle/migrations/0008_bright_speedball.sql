@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "student_attendance_unique" ON "student_attendance" USING btree ("student_id","class_id","date");
